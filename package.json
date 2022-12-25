@@ -1,0 +1,28 @@
+{
+  "name": "app-vue2.7-vite",
+  "version": "0.1.0",
+  "description": "app vue2.7 start",
+  "private": true,
+  "scripts": {
+    "dev": "vite --host",
+    "build:production": "vite build --mode production",
+    "build:uat": "vite build --mode uat",
+    "preview": "vite preview --host"
+  },
+  "dependencies": {
+    "pinia": "^2.0.28",
+    "vue": "^2.7.14",
+    "vue-router": "^3.6.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-legacy": "^2.0.0",
+    "@vitejs/plugin-vue2": "^2.2.0",
+    "sass": "^1.57.1",
+    "terser": "^5.14.2",
+    "vite": "^4.0.2"
+  },
+  "engines": {
+    "node": "^14.18.0 || >=16.0.0",
+    "npm": ">6.0.0"
+  }
+}
