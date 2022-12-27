@@ -10,27 +10,27 @@ export default defineConfig(({ mode }) => {
       vue2(),
       legacy({
         targets: ['defaults', 'ie >= 11', 'chrome 37'],
-        additionalLegacyPolyfills: ['regenerator-runtime/runtime']
+        additionalLegacyPolyfills: ['regenerator-runtime/runtime'],
       }),
     ],
     build: {
       minify: 'esbuild',
-      chunkSizeWarningLimit: 1500, // chunk 大小警告的限制（以 kbs 为单位）
+      chunkSizeWarningLimit: 2000, // chunk 大小警告的限制（以 kbs 为单位）
       rollupOptions: {
         output: {
           entryFileNames: 'js/[name]-[hash].js',
           chunkFileNames: 'js/[name]-[hash].js',
-          assetFileNames: 'assets/[ext]/[name]-[hash][extname]'
-        }
-      }
+          assetFileNames: 'assets/[ext]/[name]-[hash][extname]',
+        },
+      },
     },
     esbuild: {
       drop: ['debugger'], // 生产环境去除 debugger
     },
     resolve: {
       alias: {
-        '@': fileURLToPath(new URL('./src', import.meta.url))
-      }
+        '@': fileURLToPath(new URL('./src', import.meta.url)),
+      },
     },
     base: './',
   }

@@ -5,6 +5,8 @@
   "private": true,
   "scripts": {
     "dev": "vite --host",
+    "lint:js": "eslint --cache \"./src/**/*.{vue,js,ts,tsx}\" --fix",
+    "format": "prettier --write .",
     "build:production": "vite build --mode production",
     "build:uat": "vite build --mode uat",
     "preview": "vite preview --host"
@@ -15,8 +17,14 @@
     "vue-router": "^3.6.5"
   },
   "devDependencies": {
+    "@rushstack/eslint-patch": "^1.2.0",
     "@vitejs/plugin-legacy": "^2.0.0",
     "@vitejs/plugin-vue2": "^2.2.0",
+    "@vue/eslint-config-airbnb": "^7.0.0",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "eslint": "^8.30.0",
+    "eslint-plugin-vue": "^9.8.0",
+    "prettier": "^2.8.1",
     "sass": "^1.57.1",
     "terser": "^5.14.2",
     "vite": "^4.0.2"

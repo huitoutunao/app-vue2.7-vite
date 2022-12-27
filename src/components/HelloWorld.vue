@@ -2,8 +2,8 @@
 defineProps({
   msg: {
     type: String,
-    required: true
-  }
+    required: true,
+  },
 })
 </script>
 
@@ -12,8 +12,8 @@ defineProps({
     <h1 class="green">{{ msg }}</h1>
     <h3>
       You’ve successfully created a project with
-      <a target="_blank" href="https://vitejs.dev/">Vite</a> +
-      <a target="_blank" href="https://v2.vuejs.org/">Vue 2</a>.
+      <a target="_blank" href="https://vitejs.dev/" rel="noopener noreferrer">Vite</a> +
+      <a target="_blank" href="https://v2.vuejs.org/" rel="noopener noreferrer">Vue 2</a>.
     </h3>
   </div>
 </template>

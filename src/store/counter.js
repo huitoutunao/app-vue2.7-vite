@@ -6,11 +6,21 @@ export const useCounterStore = defineStore({
     count: 0,
   }),
   getters: {
-    doubleCount: (state) => state.count * 2
+    doubleCount: (state) => state.count * 2,
   },
   actions: {
     increment() {
       this.count += 1
     },
+  },
+})
+
+export const useAdd = defineStore({
+  id: 'useAdd',
+  state: () => ({
+    info: '',
+  }),
+  getters: {
+    getInfo: (state) => state.info,
   },
 })
