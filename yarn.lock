@@ -22,7 +22,7 @@
   dependencies:
     regenerator-runtime "^0.13.11"
 
-"@babel/standalone@^7.20.0":
+"@babel/standalone@^7.20.6":
   version "7.20.11"
   resolved "https://registry.npmmirror.com/@babel/standalone/-/standalone-7.20.11.tgz#8baf940746546e312f39539bdeefa3240108f3ec"
   integrity sha512-WUPlwwXFk3iViGE7QFVVp423eVtT+eoXu1940Xu4QJgqgHBF6WWtlwO1Ip5rIWQnp7OHrGdwrwKLtLhUVfOZbA==
@@ -198,7 +198,7 @@
     "@jridgewell/gen-mapping" "^0.3.0"
     "@jridgewell/trace-mapping" "^0.3.9"
 
-"@jridgewell/sourcemap-codec@1.4.14", "@jridgewell/sourcemap-codec@^1.4.10":
+"@jridgewell/sourcemap-codec@1.4.14", "@jridgewell/sourcemap-codec@^1.4.10", "@jridgewell/sourcemap-codec@^1.4.13":
   version "1.4.14"
   resolved "https://registry.npmmirror.com/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.4.14.tgz#add4c98d341472a289190b424efbdb096991bb24"
   integrity sha512-XPSJHWmi394fuUuzDnGz1wiKqWfo1yXecHQMRf2l6hztTO+nPru658AyDngaBe7isIxEkRsPR3FZh+s7iVa4Uw==
@@ -242,15 +242,15 @@
   resolved "https://registry.npmmirror.com/@types/json5/-/json5-0.0.29.tgz#ee28707ae94e11d2b827bcbe5270bcea7f3e71ee"
   integrity sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==
 
-"@vitejs/plugin-legacy@^2.0.0":
-  version "2.3.1"
-  resolved "https://registry.npmmirror.com/@vitejs/plugin-legacy/-/plugin-legacy-2.3.1.tgz#44d8e608e66ef03ff82ae176588c7a621d56c524"
-  integrity sha512-J5KaGBlSt2tEYPVjM/C8dA6DkRzkFkbPe+Xb4IX5G+XOV5OGbVAfkMjKywdrkO3gGynO8S98i71Lmsff4cWkCQ==
+"@vitejs/plugin-legacy@^3.0.0":
+  version "3.0.1"
+  resolved "https://registry.npmmirror.com/@vitejs/plugin-legacy/-/plugin-legacy-3.0.1.tgz#bccc0eaf15a64e1854313acebec879854e413deb"
+  integrity sha512-XCtEjxoR3rmy000ujYRBp5kggWqzHz9+F20/yIMUWOzbvu0+KW1e14Fvb8h7SpNn+bfjGW1RiAs1Vrgb7Js+iQ==
   dependencies:
-    "@babel/standalone" "^7.20.0"
-    core-js "^3.26.0"
-    magic-string "^0.26.7"
-    regenerator-runtime "^0.13.10"
+    "@babel/standalone" "^7.20.6"
+    core-js "^3.26.1"
+    magic-string "^0.27.0"
+    regenerator-runtime "^0.13.11"
     systemjs "^6.13.0"
 
 "@vitejs/plugin-vue2@^2.2.0":
@@ -619,10 +619,10 @@ core-js-pure@^3.25.1:
   resolved "https://registry.npmmirror.com/core-js-pure/-/core-js-pure-3.27.0.tgz#091dce4799a5aad4cfde930ea747b0a1962388c5"
   integrity sha512-fJml7FM6v1HI3Gkg5/Ifc/7Y2qXcJxaDwSROeZGAZfNykSTvUk94WT55TYzJ2lFHK0voSr/d4nOVChLuNCWNpA==
 
-core-js@^3.26.0:
-  version "3.26.1"
-  resolved "https://registry.npmmirror.com/core-js/-/core-js-3.26.1.tgz#7a9816dabd9ee846c1c0fe0e8fcad68f3709134e"
-  integrity sha512-21491RRQVzUn0GGM9Z1Jrpr6PNPxPi+Za8OM9q4tksTSnlbXXGKK1nXNg/QvwFYettXvSX6zWKCtHHfjN4puyA==
+core-js@^3.26.1:
+  version "3.27.0"
+  resolved "https://registry.npmmirror.com/core-js/-/core-js-3.27.0.tgz#a343bc614f29d9dcffa7616e65e10f9001cdd332"
+  integrity sha512-wY6cKosevs430KRkHUIsvepDXHGjlXOZO3hYXNyqpD6JvB0X28aXyv0t1Y1vZMwE7SoKmtfa6IASHCPN52FwBQ==
 
 cross-spawn@^5.0.1:
   version "5.1.0"
@@ -1713,12 +1713,12 @@ lru-cache@^6.0.0:
   dependencies:
     yallist "^4.0.0"
 
-magic-string@^0.26.7:
-  version "0.26.7"
-  resolved "https://registry.npmmirror.com/magic-string/-/magic-string-0.26.7.tgz#caf7daf61b34e9982f8228c4527474dac8981d6f"
-  integrity sha512-hX9XH3ziStPoPhJxLq1syWuZMxbDvGNbVchfrdCtanC7D13888bMFow61x8axrx+GfHLtVeAx2kxL7tTGRl+Ow==
+magic-string@^0.27.0:
+  version "0.27.0"
+  resolved "https://registry.npmmirror.com/magic-string/-/magic-string-0.27.0.tgz#e4a3413b4bab6d98d2becffd48b4a257effdbbf3"
+  integrity sha512-8UnnX2PeRAPZuN12svgR9j7M1uWMovg/CEnIwIG0LFkXSJJe4PdfUGiTGl8V9bsBHFUtfVINcSyYxd7q+kx9fA==
   dependencies:
-    sourcemap-codec "^1.4.8"
+    "@jridgewell/sourcemap-codec" "^1.4.13"
 
 merge-stream@^2.0.0:
   version "2.0.0"
@@ -2083,7 +2083,7 @@ readdirp@~3.6.0:
   dependencies:
     picomatch "^2.2.1"
 
-regenerator-runtime@^0.13.10, regenerator-runtime@^0.13.11:
+regenerator-runtime@^0.13.11:
   version "0.13.11"
   resolved "https://registry.npmmirror.com/regenerator-runtime/-/regenerator-runtime-0.13.11.tgz#f6dca3e7ceec20590d07ada785636a90cdca17f9"
   integrity sha512-kY1AZVr2Ra+t+piVaJ4gxaFaReZVH40AKNo7UCX6W+dEwBo/2oZJzqfuN1qLq1oL45o56cPaTXELwrTh8Fpggg==
@@ -2282,11 +2282,6 @@ source-map@^0.6.0, source-map@^0.6.1:
   version "0.6.1"
   resolved "https://registry.npmmirror.com/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
   integrity sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==
-
-sourcemap-codec@^1.4.8:
-  version "1.4.8"
-  resolved "https://registry.npmmirror.com/sourcemap-codec/-/sourcemap-codec-1.4.8.tgz#ea804bd94857402e6992d05a38ef1ae35a9ab4c4"
-  integrity sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA==
 
 string-argv@^0.3.1:
   version "0.3.1"

@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.2.0",
-    "@vitejs/plugin-legacy": "^2.0.0",
+    "@vitejs/plugin-legacy": "^3.0.0",
     "@vitejs/plugin-vue2": "^2.2.0",
     "@vue/eslint-config-airbnb": "^7.0.0",
     "@vue/eslint-config-prettier": "^7.0.0",
