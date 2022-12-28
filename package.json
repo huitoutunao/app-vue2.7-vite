@@ -7,6 +7,7 @@
     "dev": "vite --host",
     "lint:js": "eslint --cache \"./src/**/*.{vue,js,ts,tsx}\" --fix",
     "format": "prettier --write .",
+    "build:test": "vite build --mode test",
     "build:production": "vite build --mode production",
     "build:uat": "vite build --mode uat",
     "preview": "vite preview --host"
