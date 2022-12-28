@@ -28,6 +28,7 @@ header {
 .logo {
   display: block;
   margin: 0 auto 2rem;
+  user-select: none;
 }
 
 @media (min-width: 1024px) {

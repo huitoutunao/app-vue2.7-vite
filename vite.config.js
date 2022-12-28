@@ -6,6 +6,7 @@ import vue2 from '@vitejs/plugin-vue2'
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd())
   const cfg = {
+    base: './',
     plugins: [
       vue2(),
       legacy({
@@ -15,6 +16,7 @@ export default defineConfig(({ mode }) => {
     ],
     build: {
       minify: 'esbuild',
+      sourcemap: false,
       chunkSizeWarningLimit: 2000, // chunk 大小警告的限制（以 kbs 为单位）
       rollupOptions: {
         output: {
@@ -32,7 +34,6 @@ export default defineConfig(({ mode }) => {
         '@': fileURLToPath(new URL('./src', import.meta.url)),
       },
     },
-    base: './',
   }
 
   if (mode === 'production') {
