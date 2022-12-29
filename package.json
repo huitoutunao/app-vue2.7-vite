@@ -7,6 +7,8 @@
     "dev": "vite --host",
     "lint:js": "eslint --cache \"./src/**/*.{vue,js,ts,tsx}\" --fix",
     "format": "prettier --write .",
+    "test:watch": "vitest",
+    "test:run": "vitest run",
     "build:test": "vite build --mode test",
     "build:production": "vite build --mode production",
     "build:uat": "vite build --mode uat",
@@ -31,6 +33,7 @@
     "sass": "^1.57.1",
     "terser": "^5.14.2",
     "vite": "^4.0.2",
+    "vitest": "^0.26.2",
     "yorkie": "^2.0.0"
   },
   "gitHooks": {
